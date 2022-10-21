@@ -1,0 +1,169 @@
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/Lung_L.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.Lung_L.nrrd" 
+Time = 0.214053 seconds
+Time = 0.227850 seconds
+CENTER_OF_MASS
+ref	       79.0422	       126.054	       159.026
+cmp	       79.2713	       125.747	       158.883
+TP:        583023
+TN:      51571645
+FN:           317
+FP:         11671
+DICE:      0.989824
+SE:      0.999457
+SP:      0.999774
+Time = 0.254666 seconds
+Time = 0.222045 seconds
+Hausdorff distance = 19.907801
+Avg average Hausdorff distance = 0.013448
+Max average Hausdorff distance = 0.026175
+Percent (0.95) Hausdorff distance = 0.000000
+Hausdorff distance (boundary) = 19.907801
+Avg average Hausdorff distance (boundary) = 0.397499
+Max average Hausdorff distance (boundary) = 0.408613
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/Lung_R.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.Lung_R.nrrd" 
+Time = 0.227979 seconds
+Time = 0.227596 seconds
+CENTER_OF_MASS
+ref	      -59.7725	       135.709	       149.488
+cmp	      -59.7152	       135.623	       149.453
+TP:        612159
+TN:      51544969
+FN:           528
+FP:          9000
+DICE:      0.992278
+SE:      0.999138
+SP:      0.999825
+Time = 0.214777 seconds
+Time = 0.219977 seconds
+Hausdorff distance = 1.878252
+Avg average Hausdorff distance = 0.010202
+Max average Hausdorff distance = 0.019259
+Percent (0.95) Hausdorff distance = 0.000000
+Hausdorff distance (boundary) = 1.878252
+Avg average Hausdorff distance (boundary) = 0.318492
+Max average Hausdorff distance (boundary) = 0.334476
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/PTV.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.PTV.nrrd" 
+Time = 0.222415 seconds
+Time = 0.221398 seconds
+CENTER_OF_MASS
+ref	       70.0297	       140.389	       234.089
+cmp	       70.6406	        139.97	       234.089
+TP:          8415
+TN:      52157702
+FN:             0
+FP:           539
+DICE:      0.968968
+SE:      1.000000
+SP:      0.999990
+Time = 0.248361 seconds
+Time = 0.233403 seconds
+Hausdorff distance = 1.328125
+Avg average Hausdorff distance = 0.039974
+Max average Hausdorff distance = 0.079949
+Percent (0.95) Hausdorff distance = 0.664063
+Hausdorff distance (boundary) = 1.328125
+Avg average Hausdorff distance (boundary) = 0.296174
+Max average Hausdorff distance (boundary) = 0.320009
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/GTV.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.GTV.nrrd" 
+Time = 0.233368 seconds
+Time = 0.230253 seconds
+CENTER_OF_MASS
+ref	       69.7091	       140.086	       234.165
+cmp	       70.3474	       139.629	       234.179
+TP:           799
+TN:      52165734
+FN:             0
+FP:           123
+DICE:      0.928530
+SE:      1.000000
+SP:      0.999998
+Time = 0.234665 seconds
+Time = 0.265242 seconds
+Hausdorff distance = 1.328125
+Avg average Hausdorff distance = 0.088590
+Max average Hausdorff distance = 0.177179
+Percent (0.95) Hausdorff distance = 0.664063
+Hausdorff distance (boundary) = 1.328125
+Avg average Hausdorff distance (boundary) = 0.237785
+Max average Hausdorff distance (boundary) = 0.290675
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/Trachea.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.Trachea.nrrd" 
+Time = 0.225372 seconds
+Time = 0.254482 seconds
+CENTER_OF_MASS
+ref	        2.0054	       96.0121	       308.674
+cmp	       2.43778	        95.484	       308.528
+TP:         20504
+TN:      52144078
+FN:             0
+FP:          2074
+DICE:      0.951859
+SE:      1.000000
+SP:      0.999960
+Time = 0.288812 seconds
+Time = 0.392876 seconds
+Hausdorff distance = 1.328125
+Avg average Hausdorff distance = 0.061000
+Max average Hausdorff distance = 0.122001
+Percent (0.95) Hausdorff distance = 0.664063
+Hausdorff distance (boundary) = 1.878252
+Avg average Hausdorff distance (boundary) = 0.507727
+Max average Hausdorff distance (boundary) = 0.523522
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/Bar_L.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.Bar_L.nrrd" 
+Time = 0.229354 seconds
+Time = 0.243296 seconds
+CENTER_OF_MASS
+ref	       108.383	       122.804	       158.029
+cmp	       109.003	       122.381	        158.31
+TP:          1804
+TN:      52164222
+FN:             0
+FP:           630
+DICE:      0.851345
+SE:      1.000000
+SP:      0.999988
+Time = 0.271160 seconds
+Time = 0.234717 seconds
+Hausdorff distance = 1.878252
+Avg average Hausdorff distance = 0.174142
+Max average Hausdorff distance = 0.348283
+Percent (0.95) Hausdorff distance = 0.664063
+Hausdorff distance (boundary) = 1.878252
+Avg average Hausdorff distance (boundary) = 0.642094
+Max average Hausdorff distance (boundary) = 0.698288
+Percent (0.95) Hausdorff distance (boundary) = 1.328125
+
+C:\Users\z580116\Documents\GitHub\TestRTdata>plastimatch dice --all "plastimatch_1234567/Bar_R.nrrd" "nrrd_1234567/1.3.46.670589.13.880152.20221021125433.862061_1.2.840.113704.1.111.7700.1448024597.12.Bar_R.nrrd" 
+Time = 0.264491 seconds
+Time = 0.243297 seconds
+CENTER_OF_MASS
+ref	      -99.7985	       128.393	       137.764
+cmp	      -99.1157	       128.106	       135.525
+TP:          1348
+TN:      52164770
+FN:             0
+FP:           538
+DICE:      0.833643
+SE:      1.000000
+SP:      0.999990
+Time = 0.225619 seconds
+Time = 0.225200 seconds
+>>> 88.195801 91.723633
+Hausdorff distance = 58.210674
+Avg average Hausdorff distance = 0.226123
+Max average Hausdorff distance = 0.452246
+Percent (0.95) Hausdorff distance = 0.664063
+Hausdorff distance (boundary) = 58.210674
+Avg average Hausdorff distance (boundary) = 0.733338
+Max average Hausdorff distance (boundary) = 0.865046
+Percent (0.95) Hausdorff distance (boundary) = 1.328125

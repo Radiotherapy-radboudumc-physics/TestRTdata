@@ -16,9 +16,15 @@ This is test data containing
 - RTDOSE (by Pinnacle, IMRT)
 - RTPLAN (by Pinnacle, IMRT)
 
-### In the directory nrrd_1234567
+### In the directory nrrd_1234567 is nrrd data from inhouse code
 
 the matching nrrd files
 - masks are on the grid of the CT
 - rtdose is on the dosegrid AND on the grid of the CT ( _rtdose_resampled.nrrd)
+- 
+## In the directory plastimatch_1234567 is data from plastimatch (version 1.9.3)
+
+Data is generated with the script : convert_plastimatch.bat
+Analysis can be done with dice.bat (also using plastimatch)
+result of the dice comparison is in plastimatch/dice_output.txt
     
