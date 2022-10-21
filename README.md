@@ -12,6 +12,7 @@ This is test data containing
   - PTV
   - GTV
   - Trachea
+  - Ex-5mm (note : this contour is distorted due to the slabs of the phantom)
 - RTDOSE (by Pinnacle, IMRT)
 - RTPLAN (by Pinnacle, IMRT)
 
